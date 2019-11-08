@@ -1,9 +1,16 @@
 .container {
     position: absolute;
-    height: 817px;
+    /* height: 817px; */
     left: 53px;
     right: 52px;
     top: 80px;
+    padding: 10px;
+}
+
+.navbar-custom {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
 }
 
 .header {
@@ -12,13 +19,6 @@
     text-align: center;
 }
 
-.body {
-    background-color: white;
-}
-
-.picture {
-    
-}
 
 .rounded {
     width: 600px;
@@ -27,10 +27,13 @@
 }
 
 .card {
-    padding: 5px;
+    padding: 25px;
+    position: fixed;
+    border: solid;
+    text-align: center;
 }
 
-.btn {
-    justify-content: flex-end;
-    align-items: center;
+h1 {
+    color: white;
+    text-align: center;
 }
