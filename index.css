@@ -1,23 +1,41 @@
 .body {
   background-color: black;
+  height: 100vh;
+  overflow: hidden;
 }
 
+.container {
+  height: 100%;
+  min-width: 80%;
+}
 .logo {
   background-color: gray;
   width: 10em;
   height: 4em;
+  margin-bottom: 2em;
 }
 
 .header {
-    width: 120vh;
-    height: 15rem;
-  border-color; #ffffff;
+  width: 120vh;
+  height: 15rem;
+  border-color: #ffffff;
   overflow: hidden;
 }
 .header p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 75px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.navCard {
+  bottom: 0;
+  height: 65vh;
+}
+
+.row1 {
+  position: absolute;
+  height: 521px;
+  bottom: 0%;
 }
