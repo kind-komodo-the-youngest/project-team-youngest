@@ -1,0 +1,13 @@
+.logo {
+  background-color: gray;
+  width: 10em;
+  height: 4em;
+}
+
+.header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+}
