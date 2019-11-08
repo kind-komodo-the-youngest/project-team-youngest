@@ -1,0 +1,36 @@
+.container {
+    position: absolute;
+    height: 817px;
+    left: 53px;
+    right: 52px;
+    top: 80px;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.body {
+    background-color: white;
+}
+
+.picture {
+    
+}
+
+.rounded {
+    width: 600px;
+    height: 600px;
+    padding: 5px;
+}
+
+.card {
+    padding: 5px;
+}
+
+.btn {
+    justify-content: flex-end;
+    align-items: center;
+}
