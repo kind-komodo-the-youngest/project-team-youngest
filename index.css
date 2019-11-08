@@ -1,0 +1,23 @@
+.body {
+  background-color: black;
+}
+
+.logo {
+  background-color: gray;
+  width: 10em;
+  height: 4em;
+}
+
+.header {
+    width: 120vh;
+    height: 15rem;
+  border-color; #ffffff;
+  overflow: hidden;
+}
+.header p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}

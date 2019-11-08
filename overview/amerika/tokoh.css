@@ -1,16 +1,27 @@
 .container {
-    position: absolute;
+    /* position: absolute; */
     /* height: 817px; */
-    left: 53px;
+    /* left: 53px;
     right: 52px;
     top: 80px;
-    padding: 10px;
+    padding: 10px; */
+    display: flex;
+    justify-content: space-around;
 }
 
 .navbar-custom {
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0px;
+    
+}
+
+.navbar-custom a {
+    text-decoration: none;
+    color: white;
+}
+.navbar-custom  a:hover {
+    color: #17A2B8;
 }
 
 .header {
@@ -20,10 +31,14 @@
 }
 
 
-.rounded {
+.picture {
     width: 600px;
-    height: 600px;
+    height: 700px;
     padding: 5px;
+}
+
+.picture img {
+    width: 100%;
 }
 
 .card {
@@ -31,9 +46,15 @@
     position: fixed;
     border: solid;
     text-align: center;
+    padding-left: 50px;
 }
 
 h1 {
     color: white;
     text-align: center;
 }
+.btn {
+    display: flex;
+    align-items: center;
+}
+
